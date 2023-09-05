@@ -8,9 +8,11 @@ h1 {
     border-width: 4px;
     border-color: #a5a5a5;
     border-radius: 17px;
-    font-size: 38;
+    font-size: 45;
     box-shadow: 9px 15px 20px #797979;
+    font-family: RixYeoljeongdo_Regular;
 }
+
 
 
 h2 {
@@ -23,6 +25,8 @@ h2 {
     border-style: solid;
     border-radius: 12px;
     border-color: #83838352;
+    font-family: yg-jalnan;
+    
 }
 
 /*   첫 글자만 수정하기
@@ -40,6 +44,41 @@ h2:hover {
 }
 
 
+
+/*   
+    웹 폰트 사용
+*/
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+p {
+    font-size: 20px;
+    text-indent: 20px;
+    line-height: 35px;
+    font-family: Pretendard-Regular;
+}
 
 
 
